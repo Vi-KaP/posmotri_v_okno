@@ -76,12 +76,6 @@ ol {
 	white-space: nowrap;
 }
 
-/* .search-form {
-	display: grid;
-	grid-template-columns: 225px 215px 194px;
-	column-gap: 40px;
-	justify-content: space-between;
-} */
 .search-form {
 	display: flex;
 	column-gap: 40px;
@@ -136,7 +130,7 @@ ol {
 	border-top: 1px solid currentColor;
 }
 
-.search-form__textfield:focus{
+.search-form__textfield:focus {
 	outline: none;
 }
 
